@@ -1,0 +1,6 @@
+framework module SKTagsPicker {
+  umbrella header "SKTagsPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

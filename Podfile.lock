@@ -1,0 +1,16 @@
+PODS:
+  - SKTagsPicker (1.0.0)
+
+DEPENDENCIES:
+  - SKTagsPicker (from `SKTagsPicker/.`)
+
+EXTERNAL SOURCES:
+  SKTagsPicker:
+    :path: SKTagsPicker/.
+
+SPEC CHECKSUMS:
+  SKTagsPicker: 93f002e4576cc8341f5294eb9d1d4cd8904fc0fd
+
+PODFILE CHECKSUM: 70b4cd2ffd23ebbababf10854fa1002866b4d0de
+
+COCOAPODS: 1.16.2

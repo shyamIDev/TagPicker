@@ -11,7 +11,7 @@ import SwiftUI
 struct TagPickerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TagView()
         }
     }
 }

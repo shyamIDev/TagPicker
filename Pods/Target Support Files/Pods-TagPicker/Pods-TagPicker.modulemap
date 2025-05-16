@@ -1,0 +1,6 @@
+framework module Pods_TagPicker {
+  umbrella header "Pods-TagPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

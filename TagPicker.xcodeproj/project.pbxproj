@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		69A680C858A45CA7098F8224 /* Pods_TagPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 206D5AC52DFF6CDB9E406918 /* Pods_TagPicker.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		206D5AC52DFF6CDB9E406918 /* Pods_TagPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		698AC1EE2DD73C8D00B7613A /* TagPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D31434A1788D5E5A7A276E1 /* Pods-TagPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagPicker.debug.xcconfig"; path = "Target Support Files/Pods-TagPicker/Pods-TagPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		E3A8B56D2EE8E6A6D0C4828B /* Pods-TagPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagPicker.release.xcconfig"; path = "Target Support Files/Pods-TagPicker/Pods-TagPicker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,17 +30,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A680C858A45CA7098F8224 /* Pods_TagPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5ADC959FEEB7D0B4A02CB381 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D31434A1788D5E5A7A276E1 /* Pods-TagPicker.debug.xcconfig */,
+				E3A8B56D2EE8E6A6D0C4828B /* Pods-TagPicker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		698AC1E52DD73C8D00B7613A = {
 			isa = PBXGroup;
 			children = (
 				698AC1F02DD73C8D00B7613A /* TagPicker */,
 				698AC1EF2DD73C8D00B7613A /* Products */,
+				5ADC959FEEB7D0B4A02CB381 /* Pods */,
+				8C93BB6A55FA66739D9723A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +64,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8C93BB6A55FA66739D9723A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				206D5AC52DFF6CDB9E406918 /* Pods_TagPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -52,9 +79,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 698AC1FC2DD73C8E00B7613A /* Build configuration list for PBXNativeTarget "TagPicker" */;
 			buildPhases = (
+				27489D3202A63ECF11F1D492 /* [CP] Check Pods Manifest.lock */,
 				698AC1EA2DD73C8D00B7613A /* Sources */,
 				698AC1EB2DD73C8D00B7613A /* Frameworks */,
 				698AC1EC2DD73C8D00B7613A /* Resources */,
+				66C96CBC172B28842F20B29E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -64,8 +93,6 @@
 				698AC1F02DD73C8D00B7613A /* TagPicker */,
 			);
 			name = TagPicker;
-			packageProductDependencies = (
-			);
 			productName = TagPicker;
 			productReference = 698AC1EE2DD73C8D00B7613A /* TagPicker.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +140,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27489D3202A63ECF11F1D492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TagPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66C96CBC172B28842F20B29E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TagPicker/Pods-TagPicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TagPicker/Pods-TagPicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TagPicker/Pods-TagPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		698AC1EA2DD73C8D00B7613A /* Sources */ = {
@@ -246,6 +315,7 @@
 		};
 		698AC1FD2DD73C8E00B7613A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D31434A1788D5E5A7A276E1 /* Pods-TagPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -253,6 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TagPicker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -274,6 +345,7 @@
 		};
 		698AC1FE2DD73C8E00B7613A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A8B56D2EE8E6A6D0C4828B /* Pods-TagPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -281,6 +353,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TagPicker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
