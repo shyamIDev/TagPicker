@@ -13,9 +13,9 @@ public struct FlexibleView<Data: Collection, Content: View>: View where Data.Ele
     let spacing: CGFloat
     let alignment: HorizontalAlignment
     let content: (Data.Element) -> Content
-
+    
     @State private var elementsSize: [Data.Element: CGSize] = [:]
-
+    
     public init(
         availableWidth: CGFloat,
         data: Data,
@@ -29,10 +29,10 @@ public struct FlexibleView<Data: Collection, Content: View>: View where Data.Ele
         self.alignment = alignment
         self.content = content
     }
-
+    
     public var body: some View {
         let rows = computeRows()
-
+        
         return VStack(alignment: alignment, spacing: spacing) {
             ForEach(rows.indices, id: \.self) { rowIndex in
                 HStack(spacing: spacing) {
@@ -52,14 +52,14 @@ public struct FlexibleView<Data: Collection, Content: View>: View where Data.Ele
             }
         }
     }
-
+    
     private func computeRows() -> [[Data.Element]] {
         var rows: [[Data.Element]] = [[]]
         var currentRowWidth: CGFloat = 0
-
+        
         for element in data {
             let size = elementsSize[element, default: CGSize(width: availableWidth, height: 1)]
-
+            
             if currentRowWidth + size.width + spacing > availableWidth {
                 rows.append([element])
                 currentRowWidth = size.width + spacing
@@ -68,7 +68,6 @@ public struct FlexibleView<Data: Collection, Content: View>: View where Data.Ele
                 currentRowWidth += size.width + spacing
             }
         }
-
         return rows
     }
 }
