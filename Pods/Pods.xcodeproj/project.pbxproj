@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		20C0125C23B5B47117F420F7D498B729 /* Pods-TagPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A465840A8570ACE362770E397837813 /* Pods-TagPicker-dummy.m */; };
 		40970C3DD1599DC3F2FE8F6E5FA38F8B /* FlexibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40505D19C1081F6A396ECD1269154C36 /* FlexibleView.swift */; };
 		663B5A5687557DD8058536546BEC2056 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B9D4E8511B926A7260F5487DDE0 /* Tag.swift */; };
+		697E6E542DD8B994005109F7 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697E6E532DD8B992005109F7 /* TagView.swift */; };
 		736BACC9EF2BC120D6397F67B2C748E6 /* SKTagsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D33634566B62242BB533405FA11A4166 /* SKTagsPicker-dummy.m */; };
 		835D934260FFA91E3A370A5369EF3782 /* SKTagsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7189C682EE0219627682830EAC50CE1 /* SKTagsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C1F0EA2B28A7FEF4D8957F99287351C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
@@ -30,23 +31,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B018D222B6AB0DF42CDB998CFBC0EA1 /* SKTagsPicker.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = SKTagsPicker.podspec.json; sourceTree = "<group>"; };
+		0B018D222B6AB0DF42CDB998CFBC0EA1 /* SKTagsPicker.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = SKTagsPicker.podspec.json; sourceTree = "<group>"; };
 		1025C30F2E942B5F9044C4050E883FFB /* SKTagsPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKTagsPicker-Info.plist"; sourceTree = "<group>"; };
 		183C3B9D4E8511B926A7260F5487DDE0 /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
-		207F8E54EDF64A358FCE5620B158BBBC /* Pods-TagPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TagPicker"; path = Pods_TagPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		207F8E54EDF64A358FCE5620B158BBBC /* Pods_TagPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		230735E68829C55B99EE4DFE7302977B /* Pods-TagPicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TagPicker-frameworks.sh"; sourceTree = "<group>"; };
 		28982BD43C5CBAE6661CBADA589DC9F6 /* Pods-TagPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TagPicker-Info.plist"; sourceTree = "<group>"; };
 		2A465840A8570ACE362770E397837813 /* Pods-TagPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TagPicker-dummy.m"; sourceTree = "<group>"; };
 		40505D19C1081F6A396ECD1269154C36 /* FlexibleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlexibleView.swift; sourceTree = "<group>"; };
 		418D114B3FE8325230398B5843927E11 /* WrapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WrapView.swift; sourceTree = "<group>"; };
+		697E6E532DD8B992005109F7 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		6B1D279D4203876B3036C781FB33368E /* SKTagsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKTagsPicker.modulemap; sourceTree = "<group>"; };
 		76E12042EB3ED04DFA88B5E5E2A5FC02 /* Pods-TagPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TagPicker.modulemap"; sourceTree = "<group>"; };
 		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9A54881473C96D1F5F02CD196A99A564 /* Pods-TagPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TagPicker.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A493DADB60E2418DEC9423E035AD14CA /* SKTagsPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTagsPicker.release.xcconfig; sourceTree = "<group>"; };
 		A8B29AAF235EC29240467D1760D64839 /* Pods-TagPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TagPicker-acknowledgements.plist"; sourceTree = "<group>"; };
-		BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKTagsPicker; path = SKTagsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKTagsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C865348510978D7B858C4B921BB4FE21 /* Pods-TagPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TagPicker-umbrella.h"; sourceTree = "<group>"; };
 		C8EF4358531914612078EF428629975C /* SKTagsPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTagsPicker.debug.xcconfig; sourceTree = "<group>"; };
 		D2CAC98C5CF7FB6E1513B869CA7589C1 /* Pods-TagPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TagPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -81,8 +83,8 @@
 		1362E8039E10FAB8E88DB1273BCDEC85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				207F8E54EDF64A358FCE5620B158BBBC /* Pods-TagPicker */,
-				BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker */,
+				207F8E54EDF64A358FCE5620B158BBBC /* Pods_TagPicker.framework */,
+				BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +157,7 @@
 		BE5FB381F91ECEBAEF792B136E567631 /* SKTagsPicker */ = {
 			isa = PBXGroup;
 			children = (
+				697E6E532DD8B992005109F7 /* TagView.swift */,
 				40505D19C1081F6A396ECD1269154C36 /* FlexibleView.swift */,
 				183C3B9D4E8511B926A7260F5487DDE0 /* Tag.swift */,
 				418D114B3FE8325230398B5843927E11 /* WrapView.swift */,
@@ -221,7 +224,7 @@
 			);
 			name = SKTagsPicker;
 			productName = SKTagsPicker;
-			productReference = BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker */;
+			productReference = BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D1DD6A00E94E604ACEF98F001DE0D852 /* Pods-TagPicker */ = {
@@ -240,7 +243,7 @@
 			);
 			name = "Pods-TagPicker";
 			productName = Pods_TagPicker;
-			productReference = 207F8E54EDF64A358FCE5620B158BBBC /* Pods-TagPicker */;
+			productReference = 207F8E54EDF64A358FCE5620B158BBBC /* Pods_TagPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -261,8 +264,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 1362E8039E10FAB8E88DB1273BCDEC85 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -304,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40970C3DD1599DC3F2FE8F6E5FA38F8B /* FlexibleView.swift in Sources */,
+				697E6E542DD8B994005109F7 /* TagView.swift in Sources */,
 				736BACC9EF2BC120D6397F67B2C748E6 /* SKTagsPicker-dummy.m in Sources */,
 				663B5A5687557DD8058536546BEC2056 /* Tag.swift in Sources */,
 				EAEF385D0B71AA789B967979EB0B1F34 /* WrapView.swift in Sources */,

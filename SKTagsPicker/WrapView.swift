@@ -10,7 +10,7 @@ import SwiftUI
 public struct WrapView: View {
     let tags: [Tag]
     @Binding var selectedTags: Set<Tag>
-    private let displayLimit = 10
+    private let displayLimit = 8
     
     @State private var isExpanded = false
     
