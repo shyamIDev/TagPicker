@@ -23,7 +23,6 @@
       "*.swift",
       "**/*.swift"
   ],
-  "resources": "Resources/*.json",
   "frameworks": [
     "UIKit",
     "Foundation"
