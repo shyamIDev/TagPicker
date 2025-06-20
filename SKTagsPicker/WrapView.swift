@@ -45,7 +45,7 @@ public struct WrapView: View {
                 .background(isSpecial ? Color.orange : (selectedTags.contains(tag) ? Color.blue : Color.gray.opacity(0.2)))
                 .foregroundColor(isSpecial ? .white : (selectedTags.contains(tag) ? .white : .black))
                 .cornerRadius(16)
-                .frame(maxWidth: 120, alignment: .leading) // ⬅️ Limit tag width (adjust as needed)
+                .frame(maxWidth: 120, alignment: .leading) // Limit tag width (adjust as needed)
                 .onTapGesture {
                     if isSpecial {
                         isExpanded.toggle()
@@ -57,8 +57,6 @@ public struct WrapView: View {
                         }
                     }
                 }
-
-
         }
     }
 }

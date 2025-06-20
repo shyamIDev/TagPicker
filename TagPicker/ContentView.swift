@@ -10,6 +10,7 @@ import SKTagsPicker
 
 struct ContentView: View {
     var body: some View {
+        
         TagView(tags: [
             Tag(name: "SwiftUI"),
             Tag(name: "Firebase"),
