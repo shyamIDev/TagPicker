@@ -3,25 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 71;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A910847BAD7258D0269D170CDB3A66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		03CBF6EFBAAE978734F906BF2B21FFDC /* SKTagsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC98116429E978C0D280CA6C5FC1094 /* SKTagsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09028800DDE540AD878D1F364549A4B5 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01207ED7A0A6C0184386AB57D854D41E /* Tag.swift */; };
 		20C0125C23B5B47117F420F7D498B729 /* Pods-TagPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A465840A8570ACE362770E397837813 /* Pods-TagPicker-dummy.m */; };
-		40970C3DD1599DC3F2FE8F6E5FA38F8B /* FlexibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40505D19C1081F6A396ECD1269154C36 /* FlexibleView.swift */; };
-		663B5A5687557DD8058536546BEC2056 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C3B9D4E8511B926A7260F5487DDE0 /* Tag.swift */; };
-		697E6E542DD8B994005109F7 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697E6E532DD8B992005109F7 /* TagView.swift */; };
-		736BACC9EF2BC120D6397F67B2C748E6 /* SKTagsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D33634566B62242BB533405FA11A4166 /* SKTagsPicker-dummy.m */; };
-		835D934260FFA91E3A370A5369EF3782 /* SKTagsPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7189C682EE0219627682830EAC50CE1 /* SKTagsPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C1F0EA2B28A7FEF4D8957F99287351C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		218D0D8F2EDFFFC772D5FA2370469127 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E864CF000684371F62F5B6824D463A /* TagView.swift */; };
+		2AE4E3B6B0044D2F2AE47A866875D47D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
 		98436DEF8844B47519881E4B45C39215 /* Pods-TagPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C865348510978D7B858C4B921BB4FE21 /* Pods-TagPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9882C742A9A035B41B76C892257C0FF2 /* WrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718B8E61D402F2B827B6A646AC470385 /* WrapView.swift */; };
+		A23EB0A7627B4A7302686E478A570D54 /* SKTagsPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B381C078E6422ACDD9A80F8CE0D9FE43 /* SKTagsPicker-dummy.m */; };
+		A7752451ADBD1D652910F3EAA5B6671D /* FlexibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E78654D5215E9FE9FCCF1FC98785B /* FlexibleView.swift */; };
 		B9BFDEEF72D91824E135A453DFB0F3DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		CC3CFB00C4A256FD5B1F7EABEF013B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		EAEF385D0B71AA789B967979EB0B1F34 /* WrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418D114B3FE8325230398B5843927E11 /* WrapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6EAFAA780F91100FD6B1A9267F45C22D /* PBXContainerItemProxy */ = {
+		2C666E97859BCB6DE3D15077E9ECC549 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -31,32 +31,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B018D222B6AB0DF42CDB998CFBC0EA1 /* SKTagsPicker.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = SKTagsPicker.podspec.json; sourceTree = "<group>"; };
-		1025C30F2E942B5F9044C4050E883FFB /* SKTagsPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKTagsPicker-Info.plist"; sourceTree = "<group>"; };
-		183C3B9D4E8511B926A7260F5487DDE0 /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
-		207F8E54EDF64A358FCE5620B158BBBC /* Pods_TagPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01207ED7A0A6C0184386AB57D854D41E /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		17E864CF000684371F62F5B6824D463A /* TagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		207F8E54EDF64A358FCE5620B158BBBC /* Pods-TagPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TagPicker"; path = Pods_TagPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		230735E68829C55B99EE4DFE7302977B /* Pods-TagPicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TagPicker-frameworks.sh"; sourceTree = "<group>"; };
+		23F5133A21396958EACDD9C27237A4BD /* SKTagsPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTagsPicker.debug.xcconfig; sourceTree = "<group>"; };
 		28982BD43C5CBAE6661CBADA589DC9F6 /* Pods-TagPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TagPicker-Info.plist"; sourceTree = "<group>"; };
 		2A465840A8570ACE362770E397837813 /* Pods-TagPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TagPicker-dummy.m"; sourceTree = "<group>"; };
-		40505D19C1081F6A396ECD1269154C36 /* FlexibleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlexibleView.swift; sourceTree = "<group>"; };
-		418D114B3FE8325230398B5843927E11 /* WrapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WrapView.swift; sourceTree = "<group>"; };
-		697E6E532DD8B992005109F7 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
-		6B1D279D4203876B3036C781FB33368E /* SKTagsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKTagsPicker.modulemap; sourceTree = "<group>"; };
+		4B1E78654D5215E9FE9FCCF1FC98785B /* FlexibleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FlexibleView.swift; sourceTree = "<group>"; };
+		50172104B8D6AC0E9BA15BC65CBA0FEA /* SKTagsPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTagsPicker.release.xcconfig; sourceTree = "<group>"; };
+		718B8E61D402F2B827B6A646AC470385 /* WrapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WrapView.swift; sourceTree = "<group>"; };
 		76E12042EB3ED04DFA88B5E5E2A5FC02 /* Pods-TagPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TagPicker.modulemap"; sourceTree = "<group>"; };
+		78FA0A79D32EC7B208FA66D84F1986B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C209308D69BD56C03BEF7C747DE405D /* SKTagsPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKTagsPicker.modulemap; sourceTree = "<group>"; };
+		7CC98116429E978C0D280CA6C5FC1094 /* SKTagsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKTagsPicker-umbrella.h"; sourceTree = "<group>"; };
 		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		97ABB4686757A4CFF2B0268CFD79F6C9 /* SKTagsPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKTagsPicker-Info.plist"; sourceTree = "<group>"; };
 		9A54881473C96D1F5F02CD196A99A564 /* Pods-TagPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TagPicker.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A493DADB60E2418DEC9423E035AD14CA /* SKTagsPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTagsPicker.release.xcconfig; sourceTree = "<group>"; };
+		9CC1D8AF40423F80A0A05A2EE137628D /* SKTagsPicker.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = SKTagsPicker.podspec.json; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8B29AAF235EC29240467D1760D64839 /* Pods-TagPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TagPicker-acknowledgements.plist"; sourceTree = "<group>"; };
-		BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKTagsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B381C078E6422ACDD9A80F8CE0D9FE43 /* SKTagsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKTagsPicker-dummy.m"; sourceTree = "<group>"; };
+		BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKTagsPicker; path = SKTagsPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C865348510978D7B858C4B921BB4FE21 /* Pods-TagPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TagPicker-umbrella.h"; sourceTree = "<group>"; };
-		C8EF4358531914612078EF428629975C /* SKTagsPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKTagsPicker.debug.xcconfig; sourceTree = "<group>"; };
 		D2CAC98C5CF7FB6E1513B869CA7589C1 /* Pods-TagPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TagPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D33634566B62242BB533405FA11A4166 /* SKTagsPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKTagsPicker-dummy.m"; sourceTree = "<group>"; };
 		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EF33B5A3E45F2DFBC174CA03FCF4A6DF /* SKTagsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKTagsPicker-prefix.pch"; sourceTree = "<group>"; };
 		EFD683E040E9FB63EED3BDE7EF7AF7EA /* Pods-TagPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TagPicker.release.xcconfig"; sourceTree = "<group>"; };
-		F70BB64D018F279A722AE0D100AAC6AA /* SKTagsPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKTagsPicker-prefix.pch"; sourceTree = "<group>"; };
-		F7189C682EE0219627682830EAC50CE1 /* SKTagsPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKTagsPicker-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +69,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		434055FF273F2EBF8FEA90F50C42EA4F /* Frameworks */ = {
+		0F07CC7083C3A021F5E4C9A0BF31E5E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC3CFB00C4A256FD5B1F7EABEF013B54 /* Foundation.framework in Frameworks */,
-				8C1F0EA2B28A7FEF4D8957F99287351C /* UIKit.framework in Frameworks */,
+				2AE4E3B6B0044D2F2AE47A866875D47D /* Foundation.framework in Frameworks */,
+				03A910847BAD7258D0269D170CDB3A66 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,8 +84,8 @@
 		1362E8039E10FAB8E88DB1273BCDEC85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				207F8E54EDF64A358FCE5620B158BBBC /* Pods_TagPicker.framework */,
-				BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker.framework */,
+				207F8E54EDF64A358FCE5620B158BBBC /* Pods-TagPicker */,
+				BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +107,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		279C4CE41537E2A2FDB1A628D7FC3A3E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				78FA0A79D32EC7B208FA66D84F1986B0 /* LICENSE */,
+				9CC1D8AF40423F80A0A05A2EE137628D /* SKTagsPicker.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		314444353440AC50B2B25D1702CE2B8B /* Pods-TagPicker */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,51 +133,6 @@
 			path = "Target Support Files/Pods-TagPicker";
 			sourceTree = "<group>";
 		};
-		42D6F36B696527E876BD0C769FF58992 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6B1D279D4203876B3036C781FB33368E /* SKTagsPicker.modulemap */,
-				D33634566B62242BB533405FA11A4166 /* SKTagsPicker-dummy.m */,
-				1025C30F2E942B5F9044C4050E883FFB /* SKTagsPicker-Info.plist */,
-				F70BB64D018F279A722AE0D100AAC6AA /* SKTagsPicker-prefix.pch */,
-				F7189C682EE0219627682830EAC50CE1 /* SKTagsPicker-umbrella.h */,
-				C8EF4358531914612078EF428629975C /* SKTagsPicker.debug.xcconfig */,
-				A493DADB60E2418DEC9423E035AD14CA /* SKTagsPicker.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/SKTagsPicker";
-			sourceTree = "<group>";
-		};
-		70ECC2C44E86E89762C0A4201F2392CF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0B018D222B6AB0DF42CDB998CFBC0EA1 /* SKTagsPicker.podspec.json */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B0672910B7FEB8C98A4B57FDC2CE721F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BE5FB381F91ECEBAEF792B136E567631 /* SKTagsPicker */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BE5FB381F91ECEBAEF792B136E567631 /* SKTagsPicker */ = {
-			isa = PBXGroup;
-			children = (
-				697E6E532DD8B992005109F7 /* TagView.swift */,
-				40505D19C1081F6A396ECD1269154C36 /* FlexibleView.swift */,
-				183C3B9D4E8511B926A7260F5487DDE0 /* Tag.swift */,
-				418D114B3FE8325230398B5843927E11 /* WrapView.swift */,
-				70ECC2C44E86E89762C0A4201F2392CF /* Pod */,
-				42D6F36B696527E876BD0C769FF58992 /* Support Files */,
-			);
-			name = SKTagsPicker;
-			path = ../SKTagsPicker;
-			sourceTree = "<group>";
-		};
 		C759502A69785FED8AEEC07047DE1A43 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,15 +141,52 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CE280A1B27352EF7F6C7FB5BBB9991C1 /* SKTagsPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4B1E78654D5215E9FE9FCCF1FC98785B /* FlexibleView.swift */,
+				01207ED7A0A6C0184386AB57D854D41E /* Tag.swift */,
+				17E864CF000684371F62F5B6824D463A /* TagView.swift */,
+				718B8E61D402F2B827B6A646AC470385 /* WrapView.swift */,
+				279C4CE41537E2A2FDB1A628D7FC3A3E /* Pod */,
+				D8C3C08BFD2EEB13ADBF258C98E8D59B /* Support Files */,
+			);
+			name = SKTagsPicker;
+			path = ../SKTagsPicker;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B0672910B7FEB8C98A4B57FDC2CE721F /* Development Pods */,
+				E9EA0D5D2D50CD51EEFD188B74D47CAB /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				1362E8039E10FAB8E88DB1273BCDEC85 /* Products */,
 				C759502A69785FED8AEEC07047DE1A43 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D8C3C08BFD2EEB13ADBF258C98E8D59B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C209308D69BD56C03BEF7C747DE405D /* SKTagsPicker.modulemap */,
+				B381C078E6422ACDD9A80F8CE0D9FE43 /* SKTagsPicker-dummy.m */,
+				97ABB4686757A4CFF2B0268CFD79F6C9 /* SKTagsPicker-Info.plist */,
+				EF33B5A3E45F2DFBC174CA03FCF4A6DF /* SKTagsPicker-prefix.pch */,
+				7CC98116429E978C0D280CA6C5FC1094 /* SKTagsPicker-umbrella.h */,
+				23F5133A21396958EACDD9C27237A4BD /* SKTagsPicker.debug.xcconfig */,
+				50172104B8D6AC0E9BA15BC65CBA0FEA /* SKTagsPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/SKTagsPicker";
+			sourceTree = "<group>";
+		};
+		E9EA0D5D2D50CD51EEFD188B74D47CAB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE280A1B27352EF7F6C7FB5BBB9991C1 /* SKTagsPicker */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,11 +200,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94550F3A96B81ADF8CD0EE0717765B6E /* Headers */ = {
+		76955FACF4A78984B9522F32753F4C9D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835D934260FFA91E3A370A5369EF3782 /* SKTagsPicker-umbrella.h in Headers */,
+				03CBF6EFBAAE978734F906BF2B21FFDC /* SKTagsPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +213,12 @@
 /* Begin PBXNativeTarget section */
 		93A8D8F8EAC923B245A26FDFD7618C33 /* SKTagsPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44E86073EFC1D846A69EDB78D2462447 /* Build configuration list for PBXNativeTarget "SKTagsPicker" */;
+			buildConfigurationList = 445147365B5CD281CEA2D49DDA8CF534 /* Build configuration list for PBXNativeTarget "SKTagsPicker" */;
 			buildPhases = (
-				94550F3A96B81ADF8CD0EE0717765B6E /* Headers */,
-				FB8096524B1E349161C50077CBD041F6 /* Sources */,
-				434055FF273F2EBF8FEA90F50C42EA4F /* Frameworks */,
-				CC50716B13E827C58872B3013860B76E /* Resources */,
+				76955FACF4A78984B9522F32753F4C9D /* Headers */,
+				B91349E8E7D590D46E988BAA8EA78C63 /* Sources */,
+				0F07CC7083C3A021F5E4C9A0BF31E5E4 /* Frameworks */,
+				B72D9FF94A2E658B65270FF8EAEEA59B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -224,7 +226,7 @@
 			);
 			name = SKTagsPicker;
 			productName = SKTagsPicker;
-			productReference = BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker.framework */;
+			productReference = BC894DAC962E17BA937DE4042D42F8EC /* SKTagsPicker */;
 			productType = "com.apple.product-type.framework";
 		};
 		D1DD6A00E94E604ACEF98F001DE0D852 /* Pods-TagPicker */ = {
@@ -239,11 +241,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				AB3A07A8110FDFA558956BA9AB39EEF3 /* PBXTargetDependency */,
+				021F5D26FF744D4828C6BE5E282E90BB /* PBXTargetDependency */,
 			);
 			name = "Pods-TagPicker";
 			productName = Pods_TagPicker;
-			productReference = 207F8E54EDF64A358FCE5620B158BBBC /* Pods_TagPicker.framework */;
+			productReference = 207F8E54EDF64A358FCE5620B158BBBC /* Pods-TagPicker */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -264,6 +266,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 1362E8039E10FAB8E88DB1273BCDEC85 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,7 +279,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CC50716B13E827C58872B3013860B76E /* Resources */ = {
+		B72D9FF94A2E658B65270FF8EAEEA59B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,69 +304,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB8096524B1E349161C50077CBD041F6 /* Sources */ = {
+		B91349E8E7D590D46E988BAA8EA78C63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40970C3DD1599DC3F2FE8F6E5FA38F8B /* FlexibleView.swift in Sources */,
-				697E6E542DD8B994005109F7 /* TagView.swift in Sources */,
-				736BACC9EF2BC120D6397F67B2C748E6 /* SKTagsPicker-dummy.m in Sources */,
-				663B5A5687557DD8058536546BEC2056 /* Tag.swift in Sources */,
-				EAEF385D0B71AA789B967979EB0B1F34 /* WrapView.swift in Sources */,
+				A7752451ADBD1D652910F3EAA5B6671D /* FlexibleView.swift in Sources */,
+				A23EB0A7627B4A7302686E478A570D54 /* SKTagsPicker-dummy.m in Sources */,
+				09028800DDE540AD878D1F364549A4B5 /* Tag.swift in Sources */,
+				218D0D8F2EDFFFC772D5FA2370469127 /* TagView.swift in Sources */,
+				9882C742A9A035B41B76C892257C0FF2 /* WrapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AB3A07A8110FDFA558956BA9AB39EEF3 /* PBXTargetDependency */ = {
+		021F5D26FF744D4828C6BE5E282E90BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SKTagsPicker;
 			target = 93A8D8F8EAC923B245A26FDFD7618C33 /* SKTagsPicker */;
-			targetProxy = 6EAFAA780F91100FD6B1A9267F45C22D /* PBXContainerItemProxy */;
+			targetProxy = 2C666E97859BCB6DE3D15077E9ECC549 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1437DC834EF8904ABD4604FBAFE572B5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8EF4358531914612078EF428629975C /* SKTagsPicker.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SKTagsPicker/SKTagsPicker-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SKTagsPicker/SKTagsPicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SKTagsPicker/SKTagsPicker.modulemap";
-				PRODUCT_MODULE_NAME = SKTagsPicker;
-				PRODUCT_NAME = SKTagsPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2BD8263F18CAC3EBF0485900C41B03AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A54881473C96D1F5F02CD196A99A564 /* Pods-TagPicker.debug.xcconfig */;
@@ -402,6 +367,85 @@
 			};
 			name = Debug;
 		};
+		2C552ED835917136D503616FD22F7F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F5133A21396958EACDD9C27237A4BD /* SKTagsPicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SKTagsPicker/SKTagsPicker-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SKTagsPicker/SKTagsPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKTagsPicker/SKTagsPicker.modulemap";
+				PRODUCT_MODULE_NAME = SKTagsPicker;
+				PRODUCT_NAME = SKTagsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49AB802CB5F46C425007DEB3AAB7E4AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50172104B8D6AC0E9BA15BC65CBA0FEA /* SKTagsPicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SKTagsPicker/SKTagsPicker-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SKTagsPicker/SKTagsPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKTagsPicker/SKTagsPicker.modulemap";
+				PRODUCT_MODULE_NAME = SKTagsPicker;
+				PRODUCT_NAME = SKTagsPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		712DB0EE6B9C57BECDFA647103511135 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFD683E040E9FB63EED3BDE7EF7AF7EA /* Pods-TagPicker.release.xcconfig */;
@@ -435,46 +479,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		72DA66C8B17ECE71D1515368A2E57728 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A493DADB60E2418DEC9423E035AD14CA /* SKTagsPicker.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SKTagsPicker/SKTagsPicker-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SKTagsPicker/SKTagsPicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SKTagsPicker/SKTagsPicker.modulemap";
-				PRODUCT_MODULE_NAME = SKTagsPicker;
-				PRODUCT_NAME = SKTagsPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -622,11 +626,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44E86073EFC1D846A69EDB78D2462447 /* Build configuration list for PBXNativeTarget "SKTagsPicker" */ = {
+		445147365B5CD281CEA2D49DDA8CF534 /* Build configuration list for PBXNativeTarget "SKTagsPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1437DC834EF8904ABD4604FBAFE572B5 /* Debug */,
-				72DA66C8B17ECE71D1515368A2E57728 /* Release */,
+				2C552ED835917136D503616FD22F7F89 /* Debug */,
+				49AB802CB5F46C425007DEB3AAB7E4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -37,14 +37,15 @@ public struct WrapView: View {
             alignment: .leading
         ) { tag in
             let isSpecial = tag.name.hasPrefix("+") || tag.name == "Show less"
-            
             return Text(tag.name)
+                .lineLimit(1)
+                .truncationMode(.tail)
                 .padding(.vertical, 8)
                 .padding(.horizontal, 12)
                 .background(isSpecial ? Color.orange : (selectedTags.contains(tag) ? Color.blue : Color.gray.opacity(0.2)))
                 .foregroundColor(isSpecial ? .white : (selectedTags.contains(tag) ? .white : .black))
                 .cornerRadius(16)
-            
+                .frame(maxWidth: 120, alignment: .leading) // ⬅️ Limit tag width (adjust as needed)
                 .onTapGesture {
                     if isSpecial {
                         isExpanded.toggle()
@@ -56,6 +57,8 @@ public struct WrapView: View {
                         }
                     }
                 }
+
+
         }
     }
 }
